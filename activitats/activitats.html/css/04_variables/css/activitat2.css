@@ -1,0 +1,6 @@
+.rectangle{
+    --lado: 5rem;
+    width: var(--lado*2);
+    height: var(--lado);
+    background-color: #D95B43;
+}
