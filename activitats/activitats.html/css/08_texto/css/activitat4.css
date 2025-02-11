@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Anthrope Personal Use Only';
+    src: url('./AnthropePersonalUseOnly-Regular') format('woff2'),
+        url('AnthropePersonalUseOnly-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('LouisGeorgeCafeLight-.woff2') format('woff2'),
+        url('LouisGeorgeCafeLight-.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+font-family: 'Anthrope Personal Use Only';
+
+}
+
+body{
+    font-family: 'Louis George Cafe';
+
+}

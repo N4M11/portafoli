@@ -1,0 +1,9 @@
+:root{
+    font-family: Helvetica,Arial;
+    font-size: 20pt;
+}
+
+.hidden{
+    background-color: #1c1c1c;
+    color: #1c1c1c;
+}

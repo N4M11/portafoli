@@ -1,0 +1,53 @@
+@import url(https://db.onlinewebfonts.com/c/7eeaab960e42deff1bffead9367e4300?family=FranklinGothic+URW+Cond);
+@import url(https://db.onlinewebfonts.com/c/4f8f8a07e642a77a953e01dd3d13d1a2?family=HelveticaBQ-Roman);
+
+:root{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:"HelveticaBQ-Roman", sans-serif;
+    color: #8b8b8b;
+    line-height: 25px;
+}
+h1,h2{
+    color: black;
+    font-weight: 100;
+}
+
+.t_bold{
+    font-weight: bold;
+    color: #ec2028;
+}
+
+a{
+  color: #ec2028;  
+}
+
+.name{
+    background-color: #ec2028;
+    color: white;
+    padding: 5px;
+}
+
+.date{
+    font-style: italic;
+    opacity: .4;
+}
+
+.red{
+    color: #ec2028;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    padding: 2px;
+
+}
+
+.more{
+    font-style: italic;
+    color:#ec2028;
+    opacity: .5;
+    border-bottom: 2px solid #cccccc;
+    padding: 2px;
+
+ 
+}
+

@@ -1,0 +1,27 @@
+:root{
+    font-family: Helvetica,Arial;
+    font-size: 20pt;
+}
+.t_bold{
+    font-weight: bold;
+}
+
+.kodak{
+    font-weight: bold;
+    color: #ffc522;
+}
+
+.date{
+    background-color: #2e67a2;
+    color: white;
+}
+
+.morado{
+    color: #7d4fa4;
+
+}
+
+.b_verde{
+    background-color: #00a933;
+    color: white;
+}

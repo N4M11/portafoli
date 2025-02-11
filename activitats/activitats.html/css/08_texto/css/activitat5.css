@@ -1,0 +1,17 @@
+:root{
+    padding: 20px;
+    font-size: 20pt;
+}
+.e1{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.p2{
+    text-transform: uppercase;
+}
+
+.mark{
+    font-style: italic;
+    background-color: yellow;
+}

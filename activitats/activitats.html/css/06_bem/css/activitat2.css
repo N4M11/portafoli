@@ -1,0 +1,70 @@
+:root{
+   font-family: helvetica; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+*{
+        --border: 1px solid;
+
+}
+
+header hr{
+    width: 500px;
+    margin-left: 0px;
+  
+}
+
+#info{
+    color: darkgrey;
+}
+
+#n_coment fieldset label{
+    display: block;
+    margin-top: 20px;
+    
+}
+
+#text{
+    width: 500px;
+    height: 100px;
+}
+
+#n_coment fieldset{
+    width: 60%;
+    padding: 20px;
+}
+
+#n_coment fieldset {
+    background-color: #f8f7f9
+}
+
+#enviar{
+    background-color:#23232b;
+    width: 160px;
+    padding: 5px;
+    border: 1px solid;
+    color: white ;
+    cursor: pointer;
+
+    
+}
+
+#enviar:hover{
+    opacity: .2;
+}
+
+#sec_coments{
+    margin-top: 50px;
+}
+
+.coment{
+    border: 1px solid #23232b;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify-all;
+}
+
+
+
+

@@ -2,6 +2,40 @@
     width: 150px;
 }
 #menu{
-    border: 1px solid;
+    display: grid;
+    grid-template-columns: 10% 90% ;
+        text-align: center;
+
+}
+#buscador{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#menu nav ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+#menu a{
+    text-decoration: none;
     
+}
+#menu a:hover{
+    color: brown;
+    border-bottom: solid 4px brown;
+    
+}
+
+#buscador button{
+    padding: 5px;
+    border-radius: 2rem;
+    background-color: beige;
+    border: 1px solid;
+}
+
+#buscador input{
+    border: none;
+    border-bottom: 1px solid;
 }
