@@ -1,0 +1,28 @@
+:root{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+#p1{
+    width: 90%;
+    background-color: burlywood;
+}
+
+
+#p2{
+    width: 80%;
+    background-color: aquamarine;
+}
+#p3{
+    width: 70%;
+    background-color: bisque;
+}
+#p4{
+    width: 60%;
+    background-color: cadetblue;
+}
+
+#p5{
+    width: 50%;
+    background-color:darkseagreen;
+}
+
