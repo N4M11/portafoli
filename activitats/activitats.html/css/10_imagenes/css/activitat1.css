@@ -1,0 +1,23 @@
+*{
+    border: 1px solid;
+}
+.avatar{
+    width: 85px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius:50%;
+    
+}
+
+.name li{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.date{
+    display: grid;
+    grid-template-columns: 12% 88%;
+}
+
+
