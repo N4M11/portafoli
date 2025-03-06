@@ -1,0 +1,160 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2E3033;
+    color: whitesmoke;
+    overflow: auto;
+    background-image: url(../images/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#contact_info ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#contact_info{
+    border-bottom: 3px solid whitesmoke;
+    padding: 10px;
+}
+
+#contact_info ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+#menu ul li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+#menu{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    color: whitesmoke;
+}
+
+#options li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#options{
+    text-align: right;
+}
+#options a:hover{
+    border-bottom: #127DFF solid 4px;
+
+}
+
+#slideshow{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    height: 80vh; 
+    margin: auto; 
+    text-align: center;
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+
+
+.icon{
+    width: 30px;
+}
+
+
+button{
+    padding: 10px;
+    width: 130px;
+    background-color: #127DFF;
+    border: none;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+
+}
+
+button:hover{
+    background-color:#2E3033;
+    cursor: pointer;
+
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 1px 0 0 1px;
+    margin-right: 1%;
+
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: 1%
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  
+
+#prevNext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+}
+
+#prevNext a:hover{
+    color: #2E3033;
+}
+
+
+

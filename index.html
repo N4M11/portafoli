@@ -15,19 +15,22 @@
         <header>
             <div id="contact_info">
                 <ul>
-                    <li>Espanya, Lleida - 25000</li>
-                    <li>632 04 85 53</li>
-                    <li>naminatadiakite66@gmail.com</li>
+                    <li><img class="icon" src="./images/ubi.png" alt="icono ubicacion"> Lleida - 25000</li>
+                    <li><img class="icon" src="./images/tlf.png" alt="icono telefono">632 04 85 53</li>
+                    <li><img class="icon" src="./images/email.png" alt="icono email">naminatadiakite66@gmail.com</li>
                 </ul>
             </div>
             
             <nav id="menu">
-                <ul>
-                    <li><a href="#">Inici</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                    <li><a href="#">Wireframe</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Contacte</a></li>
+                <div>
+                    <p>Inici</p>
+                </div>
+                <ul id="options">
+                    <li><a href="#">INICI</a></li>
+                    <li><a href="#">SOBRE MI</a></li>
+                    <li><a href="#">WIREFRAME</a></li>
+                    <li><a href="#">EXPERIENCIA</a></li>
+                    <li><a href="#">CONTACTE</a></li>
                 </ul>
             </nav>
 
@@ -35,53 +38,70 @@
 
         <main>
             <!--SLIDESHOW W3S-->
+            <div id="slideshow">
                 <style>
-                .mySlides {display:none;}
+                    .mySlides {display:none;}
                 </style>                
-                
-                <div class="w3-content" style="max-width:400px">
-                  <div class="mySlides w3-container w3-red">
-                    <h1><b>Naminata Diakite</b></h1>
-                    <p>Hola, soc la Naminata, estudiant de FP Superior de Programació.</p>
-                    <button type="menu">
-                        Contacta'm
-                    </button>
-                  </div>
-                                
-                  <div class="mySlides w3-container w3-red">
-                    <h1><b>Formació en Programació</b></h1>
-                    <p>Actualment curso el primer any del FP Superior de Programació, especialitzant-me en sistemes informàtics, bases de dades, llenguatges de marques i entorns de desenvolupament.</p>
-                    <button type="menu">
-                        Sobre mi
-                    </button>  
-                </div>
+                    
+                    <div class="w3-content">
+                      <div class="mySlides fade">
+                        <h1><b>NAMINATA DIAKITE</b></h1>
+                        <p>Hola, soc la Naminata, estudiant de FP Superior de Programació.</p>
+                        <button type="menu">
+                            <a href="contacte.html">Contacta'm</a>
+                        </button>
+                      </div>
+                                    
+                      <div class="mySlides fade">
+                        <h1><b>FORMACIÓ EN PROGRAMACIÓ</b></h1>
+                        <p>Actualment curso el primer any del FP Superior de Programació, especialitzant-me en sistemes informàtics, bases de dades, llenguatges de marques i entorns de desenvolupament.</p>
+                        <button type="menu">
+                            <a href="sobre_mi.html">Sobre mi</a>
+                        </button>
+                      </div>  
+    
+                      <div class="mySlides fade">
+                        <h1><b>COMPROMIS PROFESSIONAL</b></h1>
+                        <p>Estic aprofundint els coneixements adquirits per estar preparada a afrontar els reptes professionals en el sector tecnològic</p>
+                        <button type="menu">
+                            <a href="sobre_mi.html">Sobre mi</a>
+                        </button>  
+                      </div>
 
-                  <div class="mySlides w3-container w3-red">
-                    <h1><b>Compromís Professional</b></h1>
-                    <p>Estic aprofundint els coneixements adquirits per estar preparada a afrontar els reptes professionals en el sector tecnològic</p>
-                    <button type="menu">
-                        Sobre mi
-                    </button>  
-                </div>
+                    <div id="prevNext">
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>  
+                    
+
+                    </div>
+
+                    <script>
+                        let slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        setInterval(function() {
+                            plusSlides(1);
+                        }, 4000);
+
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                        }
+
+                        function showSlides(n) {
+                            let i;
+                            let slides = document.getElementsByClassName("mySlides");
+                            if (n > slides.length) {slideIndex = 1}    
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                        }
+                        </script>
+
+            </div>
                 
-                </div>
-                
-                <script>
-                var slideIndex = 0;
-                carousel();
-                
-                function carousel() {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none"; 
-                  }
-                  slideIndex++;
-                  if (slideIndex > x.length) {slideIndex = 1} 
-                  x[slideIndex-1].style.display = "block"; 
-                  setTimeout(carousel, 2000); 
-                }
-                </script>
 
         </main>
 
