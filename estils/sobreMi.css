@@ -1,0 +1,18 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    overflow: auto;
+    background-image: url(../images/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+section{
+    padding: 90px;
+    padding-top: 10px;
+    margin-top: 0;
+    font-size: 15pt;
+    justify-items: center;
+}

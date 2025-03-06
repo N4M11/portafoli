@@ -1,0 +1,120 @@
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    margin-top: 20px; 
+    height: 52vh;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+#email_boton, #email{
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #1c1c1c ;
+}
+
+#email{
+    width: 410px;
+
+
+}
+
+#email_boton{
+    border-top-left-radius: 0% ;
+    border-bottom-left-radius: 0%;
+    width: 50px;
+    height: 53px;
+    margin-left: -10px;
+    cursor: pointer;
+    background-color: #127DFF;
+    color: white;
+}
+
+#email_boton:hover{
+    background-color: #3890fb;
+}
+#privacitat{
+    margin-left: 38%;
+    margin-right: 38%;
+    text-align: left;
+    font-size: 8pt;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+
+
+.twitter:hover{
+    background-color:#179cf0 ;
+}
+
+.facebook:hover{
+    background-color:#0866ff ;
+}
+
+.ig:hover{
+    background-color:#e802d3 ;
+    border-radius: 7px;
+}
+
+.yt:hover{
+    background-color:#ff0000 ;
+}
+
+#segueixme a{
+    text-decoration: none;
+}
+
+#llistes2{
+    display: grid;
+    grid-template-columns:10% 50% 40% ;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: left;
+    gap: 2%;
+    align-content: center;
+    
+}
+
+
+hr{
+    border:1px solid rgba(255, 255, 255, 0.705);
+    width: 85%;
+}
+
+#llistes2{
+    font-weight: 500;
+    font-family: Helvetica, Arial, sns-serif;
+} 
+
+#star{
+    width: 60px;
+    margin-left: 43px;
+}
+footer a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+#portafoli a{
+    color: rgba(255, 255, 255, 0.808);
+
+}
+
+#portafoli a:hover{
+    color:white;
+}
+
+
+

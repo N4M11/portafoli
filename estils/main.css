@@ -9,6 +9,12 @@
     background-repeat: no-repeat;
 
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden; 
+}
 
 #contact_info ul {
     display: flex;
@@ -41,6 +47,9 @@ ul{
     margin-right: 20px;
     
 }
+#menu p{
+    margin-left: 10px;
+}
 
 
 #menu{
@@ -58,6 +67,7 @@ ul{
 }
 #options a:hover{
     border-bottom: #127DFF solid 4px;
+    opacity: .8;
 
 }
 
@@ -102,6 +112,7 @@ button a{
 
 button:hover{
     background-color:#2E3033;
+    color: azure;
     cursor: pointer;
 
 }
@@ -154,6 +165,10 @@ button:hover{
 
 #prevNext a:hover{
     color: #2E3033;
+}
+.active{
+    border-bottom:4px solid #127DFF;
+    font-weight: bolder;
 }
 
 

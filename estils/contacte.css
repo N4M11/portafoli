@@ -1,0 +1,32 @@
+main{
+    padding: 40px;
+}
+
+fieldset label{
+    display: block;
+    border: none;
+    padding: 10px;
+    
+}
+.form{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+}
+.formM{
+    width: 400px;
+    height: 60px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enviar{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+}
+fieldset{
+    width: 900px;
+    height: 50vh;
+    background-color: #2e303355;
+    border-radius: 5px;
+}
