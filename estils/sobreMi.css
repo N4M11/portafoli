@@ -16,3 +16,39 @@ section{
     font-size: 15pt;
     justify-items: center;
 }
+
+table {
+    margin-top: 70px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(245, 245, 245, 0.514);
+}
+
+th, td {
+    border: 2px solid #2E3033;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #2E3033;
+}
+
+#idiomes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 620px;
+}
+
+.sub{
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: #496180 solid 4px;
+
+}
+
+.sub:hover{
+    border-bottom: #127DFF solid 4px;
+
+}

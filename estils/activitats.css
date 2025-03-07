@@ -1,0 +1,17 @@
+hr{
+    margin-left:0;
+}
+main{
+    padding: 20px;
+}
+
+main a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.625);
+}
+
+main a:hover{
+    color: whitesmoke;
+    border-bottom: #325176 solid 4px;
+}
